@@ -1,0 +1,75 @@
+body {
+    
+    background: #4f6457;
+    font-family: KoushikiSans-Regular; 
+}
+
+img {
+    
+    max-width: 70%px;
+    max-height: 85%;
+}
+
+.myButton {
+    background-color: #d9b44a; /* DarkBlue */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    font-family: KoushikiSans-Regular;
+    color: #4f6457; 
+}
+.myButton:hover {
+    background-color: #adc0d0; /* DarkBlue */
+
+
+}
+.myButton:active {
+    background-color: #adc0d0; /* DarkBlue */        
+}
+
+
+h1 {
+    color: #d9b44a;
+}
+
+.imgHolder {
+    
+ height: 75%;
+ 
+  
+
+}
+
+.container {
+    
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;   
+    
+
+    
+      
+}
+
+@font-face {
+    font-family: KoushikiSans-Regular;
+    src: url(KoushikiSans-Regular.otf);
+    font-weight: lighter;
+}
